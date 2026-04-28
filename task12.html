@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task12</title>
+    <style>
+        a{
+            font-size:30px;
+
+        }
+        .website-link
+        {
+            color:blue;
+            text-decoration:none;
+            background-color:blue;
+            color:white;
+        }
+        .website-link:hover{
+            color:red;
+
+        }
+        .html-link
+        {
+            color:green;
+            background-color:green;
+            color:white;
+            text-decoration:none;
+            border:none;
+        }
+        .html-link:hover
+        {
+            color:red;
+        }
+        .image-link
+        {
+            color:white;
+            text-decoration:none;
+        }
+        .image-link:hover
+        {
+            color:red;
+        }
+        .header
+        {
+            background-color:rgb(29, 7, 50);
+            display:flex;
+            border-radius:20px;
+        }
+        body{
+            background-color:rgb(208, 226, 242);
+        }
+        h1{
+            font-weight:bold;
+            text-align:center;
+            font-size:35px;
+        }
+        p
+        {
+            text-align:center;
+            font-size:20px;
+        }
+        .card1
+        {
+            padding-top:20px;
+            background-color:white;
+            width:500px;
+            height:500px;
+            text-align:center;
+            margin-left:30px;
+        }
+        .card1 p{
+            font-size:25px;
+            text-align:center;
+        }
+        .card2 p{
+            font-size:25px;
+            text-align:center;
+            padding-top:48px;
+            padding-bottom:25px;
+        }
+         .card3 p{
+            font-size:25px;
+            text-align:center;
+            padding-top:58px;
+            padding-bottom:20px;
+        }
+        .card2
+        {
+            padding-top:20px;
+            background-color:white;
+            width:500px;
+            height:500px;
+            text-align:center;
+            margin-left:30px;
+        }
+        .card-container
+        {
+            display:flex;
+            justify-content:center;
+            gap:20px;
+        }
+         .card3
+        {
+            padding-top:20px;
+            background-color:white;
+            width:500px;
+            height:500px;
+            text-align:center;
+            margin-left:30px;
+        }
+        .card-2img
+        {
+            padding-top:28px;
+            width:150px;
+            height:150px;
+            padding-bottom:20px;
+        }
+        .card3-img
+        {
+            padding-top:28px;
+            padding-bottom:30px;
+            width:130px;
+            height:130px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <H1 style="color:white;margin-left:20px;font-size:25px">My Links</H1>
+    </div>
+    <h1>Useful Links</h1>
+    <p>Quick access to important resources</p>
+    <div class="card-container">
+    <div class="card1">
+      <img src="logos/network.png" alt="network image">
+      <h1 style="color:blue">1.Open Another Website</h1><br>
+      <p>Visit the official lendi Institute of<br> Engineering and technology website</p>
+      <button style="background-color:blue"><a href="https://lendi.edu.in/" target="_blank" class="website-link">Lendi Official Website</a></button>
+    </div>
+    <div class="card2">
+        <img src="logos/docs.png" alt="docs image" class="card-2img">
+        <h1 style="color:green">2.Open Another Page</h1>
+        <p>Navigate to another page with the website</p>
+    <button style="background-color:green"><a href="task4.html" target="_blank" class="html-link">Home</a></button>
+    </div>
+    <div class="card3">
+        <img src="logos/gallery.png" alt="gallery img" class="card3-img">
+        <h1 style="color:orange">3.Open an Image</h1>
+        <p >Visit the Linux image in a new tab</p>
+    <button style="background-color:orange"><a href="logos/linux.png" target="_blank" class="image-link">linux</a></button>
+    </div>
+    </div>
+</body>
+</html>
