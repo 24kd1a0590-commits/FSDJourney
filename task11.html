@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .block
+        {
+            background-color:blue;
+            color:white;
+            padding:30px;
+        }
+        nav a{
+            text-decoration:none;
+            color:white;
+            margin-right:20px;
+            font-size:18px;
+           
+        }
+        .logo
+        {
+            width:80px;
+            height:80px;
+            margin-right:10px;
+        }
+        .header
+        {
+           display:flex;
+           align-items:center;
+           gap:5px;
+        }
+        .lendi
+        {
+            color:red;
+            font-weight:bold;
+            font-size:90px;
+        }
+        .lendiext
+        {
+            color:blue;
+            text-align:justify;
+            font-size:30px;
+        }
+        .arrow-container
+        {
+            position:relative;
+            width:90px;
+            height:90px;
+        }
+        .arrow
+        {
+            width: 60px;
+            height:60px;
+            background:gold;
+            clip-path: polygon(0 0, 70% 0, 100% 50%, 70% 100%, 0 100%, 30% 50%);
+
+        }
+        .arrowback
+        {
+            width:60px;
+            height:60px;
+            position:absolute;
+            left:15px;
+            top:5px;
+            background:grey;
+            clip-path: polygon(0 0, 70% 0, 100% 50%, 70% 100%, 0 100%, 30% 50%);
+            z-index:-1;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="logos/lendilogo.png" alt="College Logo" class="logo">
+        <H1><span class="lendi">lendi</span></H1>
+        <div class="arrow-container">
+        <h1 class="arrow"></h1>
+        <h1 class="arrowback"></h1>
+        </div>
+        <p class="lendiext"> Institute of<br> Engineering & Technology</p>
+    </div>
+
+    <nav>
+       <div class="block">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Administration</a>
+        <a href="#">Autonomous</a>
+        <a href="#">Examination Cell</a>
+        <a href="#">Departments</a>
+        <a href="#">Training and Placement</a>
+        <a href="#">Research</a>
+        <a href="#">Amenities</a>
+        <a href="#">Activities</a>
+        <a href="#">eCorner</a>
+        </div>
+    </nav>
+</body>
+</html>
